@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "graphzoo"
+version = "0.0.1"
+authors = [
+  { name="Anoushka Vyas", email="anoushkavyas@gmail.com" },
+]
+description = "A hyperbolic toolkit"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AnoushkaVyas/GraphZoo"
+"Bug Tracker" = "https://github.com/AnoushkaVyas/GraphZoo"
